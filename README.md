@@ -13,5 +13,5 @@ Landing page moderna e responsive con una galleria di immagini e lightbox.
    - Footer
 
 ## Autore
-yang.guoòstudenti.iispascal.it
+yang.guo@studenti.iispascal.it
 ****
