@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PS Gallery</title>
+  <link rel="stylesheet" href="style yang guo.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1>PS Gallery</h1>
+      <ul class="nav-links">
+        <li><a href="#gallery">Galleria</a></li>
+        <li><a href="#contact">Contatti</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h2>Benvenuto nella PS Gallery</h2>
+      <p>Scopri le nostre immagini con un'esperienza visiva immersiva</p>
+    </div>
+  </header>
+
+  <!-- Galleria -->
+  <section id="gallery" class="gallery">
+    <img src="images/img1.jpg" alt="Foto 1" onclick="openLightbox(this)">
+    <img src="images/img2.jpg" alt="Foto 2" onclick="openLightbox(this)">
+    <img src="images/img3.jpg" alt="Foto 3" onclick="openLightbox(this)">
+
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Immagine grande">
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>© 2025 PS Gallery - Contatti: yang.guo@studenti.iispascal.it</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
